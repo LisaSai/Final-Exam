@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--add another meta tag--> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Page Title</title>
+    </head>
+<body>
+    <header>
+        <a href="index.html"><img src = "images/logo.jpeg"></a>
+        <h1>Tui</h1>
+        <h2>Discover your smile</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="bestdestinations.html">Best destinations</a><p></p></li>
+            <li><a href="tickets.html">Tickets</a><p></p></li>
+            <li><a href="contact.html">Contact</a><p></p></li>
+        </ul>
+    </nav>
+    <form action="save-info.php" method="post" >
+        <fieldset>
+            <p class="row">
+                <label for="name">First and last name *:</label>
+                <input type="text" name="name" id="name" required="required"/>
+            </p>
+            <p class="row">
+                <label for="email">E-mail address *</label>
+                <input type="email" id="email" name="email" required="required" class="field-large"/>
+            </p>
+            <p class="row">
+                <label for="messasge">Your message*</label>
+                <input type="text" id="message" name="message" required="required" class="field-large"/>
+            </p>
+        </fieldset>
+        
+        <input type="submit" value="&gt; Send email"/>
+    </form>
+    <aside>
+        <ul>
+            <li>
+                <a href="https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia">
+                    <img src="images/photoOne.jfif">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia">
+                    <img src="images/photo2.jfif">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia">
+                    <img src="images/photoThree.jfif">
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <footer>
+        <p>
+            &copy; Lisa Sai
+        </p>
+        <p>
+            Student number: 685874
+        </p>
+        <section class=’cookie-banner’>
+            <p>By using our website, you agree to our cookie policy.</p>
+        </section>
+    </footer>
+</body>
+</html>
