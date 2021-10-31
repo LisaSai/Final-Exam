@@ -1,15 +1,110 @@
-@media (max-width: 1280px) {
-    
+@media (min-width: 1179px) {
+  .places-Australia {
+    display: grid;
+    grid-template-rows: 7;
+    grid-template-columns: 3;
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
   }
+  .future__popular__places {
+    grid-column-start: 3;
+    padding: 0;
+    padding-right: 50px;
+  }
+  .places {
+    display: grid;
+    grid-template-rows: 3;
+    grid-column-end: 1;
+    padding-right: 50px;
+    width: 60%;
+  }
+  .future__popular__places__list{
+    padding: 0;
+    justify-self: end;
+    width: 300px;
+  }
+  .article-one {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+  .article-two {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .article-three {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .article-four {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+  }
+  .article-five {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 7;
+  }
+  .article-six {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 7;
+  }
+  .photos-australia {
+    display: grid;
+    grid-column: 6;
+  }
+  .photo-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 30%;
+  }
+  .photo-two {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    width: 30%;
+  }
+  .photo-three {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    width: 30%;
+  }
+}
   @media (max-width: 1179px) {
     .page__title {
         font-size: 32px;
         line-height: 109%;
     }
+    .places {
+      width: 100%;
+    }
+    .future__popular__places__list{
+      width: 100%;
+      padding: 0;
+    }
   }
   @media (max-width: 480px) {
     .logo {
         display: none;
+      }
+      .future__popular__places__list {
+        margin-right: 20px;
+        padding: 0;
+      }
+      .places {
+        padding: 0
+      }
+      .product__photo {
+        width: 100px;
       }
   }
 .logo {
@@ -18,27 +113,99 @@
   }
 .page {
     background-color: #AED6F1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
   }
 .page__title {
-    color: #154360;
-    width: 100%;
-    font-size: 54px;
-    line-height: 107%;
-    margin: 0;
-    font-family: 'Halvetica Neue', 'Arial', sans-serif;
-    display: flex;
-    align-items: left;
-    width: 730px;
-    height: 96px;
-  
-  /*z-index: 5;
-  padding-left: 64px;
-  */
-
+  color: #154360;
+  width: 100%;
+  font-size: 40px;
+  line-height: 107%;
+  margin: 0;
+  margin-top: 10px;
+  font-family: 'Halvetica Neue', 'Arial', sans-serif;
+  display: flex;
+  align-items: left;
+  font-family: 'Notable', sans-serif;
 }
 .page__subtitle {
-    color: #154360; 
-    width: 100%;
-    font-size: 44px;
-    margin: 0;
+  color: #154360; 
+  width: 100%;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 10px;
+  font-family: 'Notable', sans-serif;
 }
+.navigation__link {
+  display: block;
+  border-color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: center;
+  color: #180707;
+}
+.navigation__link:hover {
+  opacity: 0.8;
+}
+.page__navigation {
+  background-color: #EFF7FC;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+.video {
+  width: 100%;
+}
+
+.cookie-banner {
+  z-index: 9999;
+  grid-column-start: 3;
+  width: 50%;
+  background-color: #FA0;
+  opacity: 50%;
+  justify-self: end;
+}
+.page__products {
+  display: grid;
+  grid-template-columns: 3;
+}
+.product__photo {
+  width: 220px;
+  float: right;
+  margin-top: 2-px;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  opacity: 0.8;
+}
+.footer {
+  display: grid;
+  background-color: #EFF7FC;
+}
+.footer__author {
+  grid-column-end: 2;
+  padding-right: 50px;
+  grid-column-end: 1;
+}
+.cookie-text {
+  color: #FFFFFF;
+}
+.table {
+  width: 100%;
+}
+.table-image {
+  padding: 0;
+}
+.photos-australia{
+  list-style-type: none;
+}
+
+

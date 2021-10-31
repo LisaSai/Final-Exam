@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <!--add another meta tag--> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
     <link rel="stylesheet" type= "text/css" href="css/style.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Travel</title>
@@ -14,95 +17,96 @@
         <h1 class="page__title">Tui</h1>
         <h2 class="page__subtitle">Discover your smile</h2>
     </header>
+    <nav>
+        <ul class="page__navigation">
+            <li><a class="navigation__link" href="bestdestinations.html">Best destinations</a><p></p></li>
+            <li><a class="navigation__link" href="tickets.html">Tickets</a><p></p></li>
+            <li><a class="navigation__link" href="contact.html">Contact</a><p></p></li>
+        </ul>
+    </nav>
     <video class="video" autoplay muted >
         <source src="video/videoCapeTown.mp4" type="video/mp4"> 
         <source src="video/videoCapeTown.ogg" type="video/ogg"> 
 
     </video>
-    <nav class="page__navigation">
-        <ul>
-            <li class="navigation__link"><a href="bestdestinations.html">Best destinations</a><p></p></li>
-            <li class="navigation__link"><a href="tickets.html">Tickets</a><p></p></li>
-            <li class="navigation__link"><a href="contact.html">Contact</a><p></p></li>
-        </ul>
-    </nav>
     <section class="page__products">
-        <article>
-            <h3 class="product__title">Tallinn</h3>
-            <a href="https://www.anwb.nl/vakantie/estland">
-                <img class="product__photo" alt="Photo of Tallinn city centre" title="Tallinn Old Town" src="images/Tallinn.jfif">Book Here
-            </a>
-            <p>The capital of Estonia is a perfect holiday destination for all seasons. It combines all great things about the modern world and the history of this tiny northern nation.</p>
-            <p>The historical centre is a marvellous example of medieval architecture that is truly an open museum on its own.</p>
-            <p>Tallinn is the first point of entry for most people travelling to Estonia. <em>Lennart Meri Tallinn Airport</em> has incoming flights from many European cities and is easy to reach.</p>
-            <p>Additionally, the city is also close to the Baltic sea across which lies the capital of Finland, Helsinki. Thus, it's a great starting point when travelling through Eastern/Northern Europe.</p>
-            <a href="https://www.visitestonia.com/en/where-to-go/tallinn">More Info</a>
-            <footer></footer>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h3 class="product__title">Saint-Petersburg</h3>
-            <a href="https://www.tui.nl/reizen/rusland/leningrad/st-petersburg/">
-                <img class="product__photo" alt = "Photo of Saint-Petersburg" title="St. Isaac's Cathedral in St. Petersburg" src="images/SaintPetersburg.jfif">Book Here
-            </a>
-            <p>One of the world's most beautiful cities, St. Petersburg has all the ingredients for an unforgettable travel experience: high art, lavish architecture, wild nightlife, an extraordinary history and rich cultural traditions that have inspired and nurtured some of the modern world's greatest literature, music, and visual art. From the mysterious twilight of the White Nights to world-beating opera and ballet productions on magical winter evenings, St. Petersburg charms and entices in every season. Saint-Petersburg.Com is here to help you navigate every aspect of this fascinating city, with all the information and travel resources necessary to plan your trip to St. Petersburg.</p>
-            <p>Source of data &copy; 2021 <a href="http://www.saint-petersburg.com/">SAINT-PETERSBURG.COM</a></p>
-            
-            <footer></footer>
-        </article>
-    </section>
-    <section>
-        <article>
-            <h3 class="product__title">Stockholm</h3>
-            <a href="https://www.tui.nl/reizen/zweden/stockholm/stockholm/">
-                <img class="product__photo" alt = "Photo of Stockholm" title="Skyline of Stockholm Old Town" src="images/Stockholm.jfif">Book Here
-            </a>
-            <p>Stockholm offers a smorgasbord of art and culture, from world-class museums and historically fascinating royal palaces to niche galleries and intimate artist houses.</p>
-            <p>Additionally, you are never far from nature in Stockholm. <em>The Stockholm archipelago</em> – the largest in Sweden – is a draw for visitors and locals alike. Take a ferry to one of the islands, such as the idyllic archipelago town of Vaxholm with its village-y feel, defined by wooden houses dating back to the end of the 20th century. Here, you will find a range of shops, restaurants and cafés. In the summertime, take your cue from the locals and relax by the waterfront with some homemade ice cream.</p>
-            <p>Source of data &copy; 2021 <a href="https://visitsweden.com/where-to-go/middle-sweden/stockholm/">Visit Sweden</a></p>
-            <footer></footer>
-        </article>
-    </section>
-    <section>
-        <ol class="future__popular__places">
-            <h3 class="future__popular__place__main__title">Future Popular Routes</h3>
-            <li class="future__popular__place">
-                <h4 class="future__popular__place__title">Malmö</h4>
-                <p class="future__popular__place__paragraph">All roads in the gorgeous southern province of Skåne lead to Malmö, Sweden. The perfect blend of old-world charm and ultra-modern cosmopolitan vibes, this seaside city offers something for everyone.</p>
-                <p class="source">Source of data &copy; 2021 <a href="https://visitsweden.com/where-to-go/southern-sweden/malmo/">Visit Sweden</a></p>
-            </li>
-            <li class="future__popular__place">
-                <h4 class="future__popular__place__title">Gothenburg</h4>
-                <p>Gothenburg (Göteborg), Sweden&apos;s second biggest city, combines vibrant urbanity, a friendly vibe and seaside charm. It also has culinary prowess and a world-class craft beer scene.</p>
-                <p class="source">Source of data &copy; 2021 <a href="https://visitsweden.com/where-to-go/southern-sweden/goteborg/">Visit Sweden</a></p>
-            </li>
-            <li class="future__popular__place">
-                <h4 class="future__popular__place__title">Riga</h4>
-                <p>Riga, the capital of Latvia, is not only the crown jewel of Latvia, but also of the Baltics.</p>
-                <p class="source">Source of data &copy; 2021 <a href="https://www.latvia.travel/en/city/riga-8">Magnetic Latvia</a></p>
-            </li>
-            <li class="future__popular__place">
-                <h4 class="future__popular__place__title">Vilnius</h4>
-                <p>Boring isn&apos;t an option in Vilnius! It&apos;s a city packed with action, art, inspiration, history and more than a few unexpected adventures along the way.</p>
-                <p class="source">Source of data &copy; 2021 <a href="https://www.govilnius.lt/visit-vilnius">Vilnius</a></p>
-            </li>
-            <li class="future__popular__place">
-                <h4 class="future__popular__place__title">Helsinki</h4>
-                <p>Helsinki, the sustainable capital of Finland, is a vibrant seaside city of beautiful islands and great green urban areas.</p>
-                <p class="source">Source of data &copy; 2021 <a href="https://www.visitfinland.com/helsinki/">Visit Helsinki</a></p>
-            </li>
-        </ol>
+        <section class="places">
+            <article>
+                <h3 class="product__title">Tallinn</h3>
+                <a class="link" href="https://www.anwb.nl/vakantie/estland">
+                    <img class="product__photo" alt="Photo of Tallinn city centre" title="Tallinn Old Town" src="images/Tallinn.jfif">Book Here
+                </a>
+                <p>The capital of Estonia is a perfect holiday destination for all seasons. It combines all great things about the modern world and the history of this tiny northern nation.</p>
+                <p>The historical centre is a marvellous example of medieval architecture that is truly an open museum on its own.</p>
+                <p>Tallinn is the first point of entry for most people travelling to Estonia. <em>Lennart Meri Tallinn Airport</em> has incoming flights from many European cities and is easy to reach.</p>
+                <p>Additionally, the city is also close to the Baltic sea across which lies the capital of Finland, Helsinki. Thus, it's a great starting point when travelling through Eastern/Northern Europe.</p>
+                <a class="link" href="https://www.visitestonia.com/en/where-to-go/tallinn">More Info</a>
+                <footer></footer>
+            </article>
+            <article>
+                <h3 class="product__title">Saint-Petersburg</h3>
+                <a class="link" href="https://www.tui.nl/reizen/rusland/leningrad/st-petersburg/">
+                    <img class="product__photo" alt = "Photo of Saint-Petersburg" title="St. Isaac's Cathedral in St. Petersburg" src="images/SaintPetersburg.jfif">Book Here
+                </a>
+                <p>One of the world's most beautiful cities, St. Petersburg has all the ingredients for an unforgettable travel experience: high art, lavish architecture, wild nightlife, an extraordinary history and rich cultural traditions that have inspired and nurtured some of the modern world's greatest literature, music, and visual art. From the mysterious twilight of the White Nights to world-beating opera and ballet productions on magical winter evenings, St. Petersburg charms and entices in every season. Saint-Petersburg.Com is here to help you navigate every aspect of this fascinating city, with all the information and travel resources necessary to plan your trip to St. Petersburg.</p>
+                <p>Source of data &copy; 2021 <a href="http://www.saint-petersburg.com/">SAINT-PETERSBURG.COM</a></p>
+                
+                <footer></footer>
+            </article>
+            <article>
+                <h3 class="product__title">Stockholm</h3>
+                <a class="link" href="https://www.tui.nl/reizen/zweden/stockholm/stockholm/">
+                    <img class="product__photo" alt = "Photo of Stockholm" title="Skyline of Stockholm Old Town" src="images/Stockholm.jfif">Book Here
+                </a>
+                <p>Stockholm offers a smorgasbord of art and culture, from world-class museums and historically fascinating royal palaces to niche galleries and intimate artist houses.</p>
+                <p>Additionally, you are never far from nature in Stockholm. <em>The Stockholm archipelago</em> – the largest in Sweden – is a draw for visitors and locals alike. Take a ferry to one of the islands, such as the idyllic archipelago town of Vaxholm with its village-y feel, defined by wooden houses dating back to the end of the 20th century. Here, you will find a range of shops, restaurants and cafés. In the summertime, take your cue from the locals and relax by the waterfront with some homemade ice cream.</p>
+                <p>Source of data &copy; 2021 <a class="link" href="https://visitsweden.com/where-to-go/middle-sweden/stockholm/">Visit Sweden</a></p>
+                <footer></footer>
+            </article>
+        </section>
+        <section class="future__popular__places">
+            <ol class="future__popular__places__list">
+                <h3 class="future__popular__place__main__title">Future Popular Routes</h3>
+                <li class="future__popular__place">
+                    <h4 class="future__popular__place__title">Malmö</h4>
+                    <p class="future__popular__place__paragraph">All roads in the gorgeous southern province of Skåne lead to Malmö, Sweden. The perfect blend of old-world charm and ultra-modern cosmopolitan vibes, this seaside city offers something for everyone.</p>
+                    <p class="source">Source of data &copy; 2021 <a class="link" href="https://visitsweden.com/where-to-go/southern-sweden/malmo/">Visit Sweden</a></p>
+                </li>
+                <li class="future__popular__place">
+                    <h4 class="future__popular__place__title">Gothenburg</h4>
+                    <p>Gothenburg (Göteborg), Sweden&apos;s second biggest city, combines vibrant urbanity, a friendly vibe and seaside charm. It also has culinary prowess and a world-class craft beer scene.</p>
+                    <p class="source">Source of data &copy; 2021 <a class="link" href="https://visitsweden.com/where-to-go/southern-sweden/goteborg/">Visit Sweden</a></p>
+                </li>
+                <li class="future__popular__place">
+                    <h4 class="future__popular__place__title">Riga</h4>
+                    <p>Riga, the capital of Latvia, is not only the crown jewel of Latvia, but also of the Baltics.</p>
+                    <p class="source">Source of data &copy; 2021 <a class="link" href="https://www.latvia.travel/en/city/riga-8">Magnetic Latvia</a></p>
+                </li>
+                <li class="future__popular__place">
+                    <h4 class="future__popular__place__title">Vilnius</h4>
+                    <p>Boring isn&apos;t an option in Vilnius! It&apos;s a city packed with action, art, inspiration, history and more than a few unexpected adventures along the way.</p>
+                    <p class="source">Source of data &copy; 2021 <a class="link" href="https://www.govilnius.lt/visit-vilnius">Vilnius</a></p>
+                </li>
+                <li class="future__popular__place">
+                    <h4 class="future__popular__place__title">Helsinki</h4>
+                    <p>Helsinki, the sustainable capital of Finland, is a vibrant seaside city of beautiful islands and great green urban areas.</p>
+                    <p class="source">Source of data &copy; 2021 <a class="link" href="https://www.visitfinland.com/helsinki/">Visit Helsinki</a></p>
+                </li>
+            </ol>
+        </section>
+
     </section>
     <footer class="footer">
-        <p>
-            &copy; Lisa Sai
-        </p>
-        <p>
-            Student number: 685874
-        </p>
-        <section class=’cookie-banner’>
-            <p>By using our website, you agree to our cookie policy.</p>
+        <section class="footer__author">
+            <p>
+                &copy; Lisa Sai
+            </p>
+            <p>
+                Student number: 685874
+            </p>
+        </section>
+        <section class="cookie-banner">
+            <p class="cookie-text">By using our website, you agree to our cookie policy.</p>
         </section>
     </footer>
 </body>
