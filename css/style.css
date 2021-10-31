@@ -1,0 +1,44 @@
+@media (max-width: 1280px) {
+    
+  }
+  @media (max-width: 1179px) {
+    .page__title {
+        font-size: 32px;
+        line-height: 109%;
+    }
+  }
+  @media (max-width: 480px) {
+    .logo {
+        display: none;
+      }
+  }
+.logo {
+    max-width: 200px;
+    max-height: 90px;
+  }
+.page {
+    background-color: #AED6F1;
+  }
+.page__title {
+    color: #154360;
+    width: 100%;
+    font-size: 54px;
+    line-height: 107%;
+    margin: 0;
+    font-family: 'Halvetica Neue', 'Arial', sans-serif;
+    display: flex;
+    align-items: left;
+    width: 730px;
+    height: 96px;
+  
+  /*z-index: 5;
+  padding-left: 64px;
+  */
+
+}
+.page__subtitle {
+    color: #154360; 
+    width: 100%;
+    font-size: 44px;
+    margin: 0;
+}

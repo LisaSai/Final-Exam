@@ -4,36 +4,47 @@
         <meta charset="UTF-8">
         <!--add another meta tag--> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Page Title</title>
+        <link rel="stylesheet" type= "text/css" href="css/style.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <title>Contact</title>
     </head>
-<body>
+<body class="page">
     <header>
-        <a href="index.html"><img src = "images/logo.jpeg"></a>
-        <h1>Tui</h1>
-        <h2>Discover your smile</h2>
+        <a href="index.html"><img class="logo" alt = "logo Tui" title ="Tui Logo" src = "images/tui-logo.png"></a>
+        <h1 class="page__title">Tui</h1>
+        <h2 class="page__subtitle">Discover your smile</h2>
     </header>
-    <nav>
+    <nav class="page__navigation">
         <ul>
-            <li><a href="bestdestinations.html">Best destinations</a><p></p></li>
-            <li><a href="tickets.html">Tickets</a><p></p></li>
-            <li><a href="contact.html">Contact</a><p></p></li>
+            <li class="navigation__link"><a href="bestdestinations.html">Best destinations</a><p></p></li>
+            <li class="navigation__link"><a href="tickets.html">Tickets</a><p></p></li>
+            <li class="navigation__link"><a href="contact.html">Contact</a><p></p></li>
         </ul>
     </nav>
     <form action="save-info.php" method="post" >
         <fieldset>
-            <p class="row">
-                <label for="name">First and last name *:</label>
-                <input type="text" name="name" id="name" required="required"/>
-            </p>
-            <p class="row">
-                <label for="email">E-mail address *</label>
-                <input type="email" id="email" name="email" required="required" class="field-large"/>
-            </p>
-            <p class="row">
-                <label for="messasge">Your message*</label>
-                <input type="text" id="message" name="message" required="required" class="field-large"/>
-            </p>
+            <legend>Send us a message.</legend>
+            <ul>
+                <li>
+                    <p class="row">
+                    <label for="name">First and last name<em>*</em>:</label>
+                    <input type="text" name="name" id="name" required="required" value="name"/>
+                    </p>
+                </li>
+                <li>
+                    <p class="row">
+                        <label for="email">E-mail address<em>*</em></label>
+                        <input type="email" id="email" name="email" required="required" class="field-large" value="email"/>
+                    </p>
+                </li>
+                <li>
+                    <p class="row">
+                        <label for="messasge">Your message<em>*</em></label>
+                        <input type="text" id="message" name="message" required="required" class="field-large" value="message"/>
+                    </p> 
+                </li>
+            </ul>
+
         </fieldset>
         
         <input type="submit" value="&gt; Send email"/>
@@ -42,22 +53,22 @@
         <ul>
             <li>
                 <a href="https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia">
-                    <img src="images/photoOne.jfif">
+                    <img alt = "Photo of Red Rock Australia" title = "Red Rock Australia" src="images/photoOne.jfif">
                 </a>
             </li>
             <li>
                 <a href="https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia">
-                    <img src="images/photo2.jfif">
+                    <img alt = "Photo of Queensland"  title = "Queensland City Skyline" src="images/queensland.jfif">
                 </a>
             </li>
             <li>
                 <a href="https://www.britishairways.com/en-gb/destinations/far-east-and-australia/australia">
-                    <img src="images/photoThree.jfif">
+                    <img alt = "Photo of the ocean" title = "Ocean in Autralia" src="images/photoThree.jfif">
                 </a>
             </li>
         </ul>
     </aside>
-    <footer>
+    <footer class="footer">
         <p>
             &copy; Lisa Sai
         </p>
