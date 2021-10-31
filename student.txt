@@ -1,4 +1,4 @@
 Student name: Lisa Sai
 Student number: 685874
 Student class: IT1C
-o URL student GitHub repository: your GitHub UR
+URL student GitHub repository: https://github.com/LisaSai/Final-Exam.git
