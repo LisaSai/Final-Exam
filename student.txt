@@ -1,3 +1,4 @@
-Lisa Sai
-685874
-IT1C
+Student name: Lisa Sai
+Student number: 685874
+Student class: IT1C
+o URL student GitHub repository: your GitHub UR
